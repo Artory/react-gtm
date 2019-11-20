@@ -26,6 +26,10 @@ export interface TagManagerArgs extends DataLayerArgs {
      * Used to set environments, something like env-00.
      */
     preview?: string;
+    /**
+     * Used set CSP nonce value to script elements.
+     */
+    nonce?: string;
 }
 
 export interface DataLayerArgs {
